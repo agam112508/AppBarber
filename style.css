@@ -1,0 +1,60 @@
+.container-fluid {
+  background-image: url("/BarberApp/hombre-guapo-barberia-afeitado-barba.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Cubrir todo el fondo */
+  background-position: center; /* Centrar la imagen */
+  padding: 4vh; /* Añadir espacio alrededor del contenido */
+}
+
+/* Centrar contenido del container vertical y horizontalmente */
+.container-fluid .center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.olvPass {
+  color: #edf2f4;
+}
+.txtIndex {
+  color: black;
+  font-weight: bold;
+}
+.text-danger {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form-check {
+    margin-left: 40%;
+    margin-bottom: 8px;
+    text-align: start;
+    color: #ef233c;
+  }
+
+/* Estilo del container con fondo de imagen */
+.carousel-container {
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+/* Estilo de las imágenes dentro del carrusel */
+.carousel-item img {
+  max-width: 100%; /* Hace que la imagen sea responsiva */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+
+
+.btn-exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1; /* Asegura que esté encima del formulario */
+}
+
+/* Ajusta el formulario */
+.container {
+  position: relative;
+}
